@@ -1,4 +1,3 @@
-''''''
 import os
 import tqdm
 import socket
@@ -8,7 +7,7 @@ class ClientProtocol:
 
     def __init__(self):
          """Constructor for ClientProtocol with no arguments"""
-        self.s = None
+         self.s = None
 
     def connect(self, server_ip, server_port):
         """function to create socket connection with provided server_ip & server_port as an arguments"""
@@ -47,7 +46,7 @@ class ClientProtocol:
 
 
 if __name__ == '__main__':
-    # Test the Client transfer to server
+    # Test File transfer from Client to Server
     cp = ClientProtocol()
     cp.connect('127.0.0.1', 9001)
     cp.send_data_to_server('Client/data.csv')
