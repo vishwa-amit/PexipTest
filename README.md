@@ -6,10 +6,10 @@ the server can handle and serve multiple clients at the same time and send files
 
 ## Usage
 - Run the n_server.py file, entering the port you wish (currently used as localhost ip 127.0.0.1) for the server to run on 
-- python n_server.py
+    ```python n_server.py```
 
 - Now, user can run the watcher with the folder passed as parameter and to monitor the folder and as soon as there is any new file added or updated, the files will be synched to the Server Folder automatically.
-- python watcher.py Client
+  ```python watcher.py Client```
 
 - Change the existing txt file in Client folder and the changes will be pushed to the Server folder immdediately
 
