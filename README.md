@@ -1,4 +1,4 @@
-# PexipTest
+# Simple Server
 # An application to synchronise a source folder(client) and a destination folder (server) over IP
 
 A simple file transfer server written in Python 3, that allows the user to download files or any changes from the Client to Server.
