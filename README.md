@@ -31,5 +31,7 @@ Since this is a simple project, this repository is unlikely to be majorily chang
 - Tested for single Client however should work for multiple clients similar way
 - multiple threads not used
 
+### another part of assignment 1.2 is not completed
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
