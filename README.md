@@ -24,5 +24,12 @@ the server can handle and serve multiple clients at the same time and send files
 ## Contributing
 Since this is a simple project, this repository is unlikely to be majorily changed, however if you wish to contribute with bug fixes/new features/code improvements, pull requests are welcome. Issues are also welcome if you want to discuss or raise an issue.
 
+## Limitations / Known Issues
+- The Progress bar doesn't seems to be updating during file transfer
+- The Code is tested on the same machine `localhost(127.0.0.1)` IP and static port 9001 however this can run on the Network by adapting the Server IP
+- works well with different file format transfer however have not tested with large files
+- Tested for single Client however should work for multiple clients similar way
+- multiple threads not used
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
