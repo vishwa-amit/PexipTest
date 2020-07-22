@@ -11,7 +11,7 @@ the server can handle and serve multiple clients at the same time and send files
 - Now, user can run the watcher with the folder passed as parameter and to monitor the folder and as soon as there is any new file added or updated, the files will be synched to the Server Folder automatically.
   ```python watcher.py Client``` where **Client** is Folder name, this can be absolute path or relative path to the **watcher.py** script.
 
-- Change the existing txt file in Client folder and the changes will be pushed to the Server folder immdediately
+- Change the existing txt file in ```/Client``` folder and the changes will be pushed to the ```/Server``` folder immdediately
 
 ## Requirements
 - Python 3.7+
